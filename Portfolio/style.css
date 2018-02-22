@@ -1,0 +1,106 @@
+/*Stephen Silverstein
+https://github.com/sjsilverstein*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	color: #B5A09E; /*test*/
+	outline: 0;
+	padding: 0;
+	margin: 0;
+
+}
+h1,h2{
+	display: inline-block;
+}
+h1{
+	font-size: 6vh;
+}
+h2{
+	font-size: 4vh;
+	float: right;
+}
+h3{
+	font-size: 3vh;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+h4{
+}
+.thumbnails img{
+	max-width: 17%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+#wrapper{
+	height:100vh;
+	background-color: #1B2F47;
+	background: linear-gradient (to right, green, red); /*#1B2F47*/
+	overflow: scroll;
+}
+#header{
+	height: 10vh;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+#main{
+	padding-top: 5vh;
+	padding-right:3%; 
+	padding-left:3%
+}
+#profilephoto{
+	width: 34%;
+	height: 30vh;
+	border: solid #476A94 10px;
+	border-radius: 8px;
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 3vh;
+}
+#aboutMe{
+	border-radius: 8px;
+	float: right;
+	margin-right: 5%;
+	width: 50%;
+	display: inline-block;
+	background-color: #476A94;
+
+}
+.project{
+	max-width: 30%;
+	border-radius: 8px;
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 5vh;
+	background-color: #476A94;
+
+}
+.title{
+	padding-left: 2%;
+	background-color: #8DA9AB;
+}
+.projectimg{
+	max-width: 100%;
+}
+#footer{	
+	margin: auto;
+	text-align: center;
+	height: 5vh;
+	width: 100%;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+#footer img{
+	margin: 1vh 1%;
+}
+#footer a{
+margin-bottom: 1vh;
+	text-align: center;
+}
