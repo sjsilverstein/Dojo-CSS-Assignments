@@ -6,7 +6,7 @@ https://github.com/sjsilverstein*/
 	font-family: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	color: #B5A09E; /*test*/
+	color: #E0BEBF; /*test*/
 	outline: 0;
 	padding: 0;
 	margin: 0;
@@ -29,17 +29,11 @@ img{
 	max-width: 100%;
 	max-height: 100%;
 }
-h4{
-}
-.thumbnails img{
-	max-width: 17%;
-	margin-right: 1%;
-	margin-left: 1%;
-}
+
 #wrapper{
 	height:100vh;
-	background-color: #1B2F47;
-	background: linear-gradient (to right, green, red); /*#1B2F47*/
+	background-color: #1B2F47; 
+	background: linear-gradient(to right, #476A94, #1B2F47);
 	overflow: scroll;
 }
 #header{
@@ -52,12 +46,14 @@ h4{
 #main{
 	padding-top: 5vh;
 	padding-right:3%; 
-	padding-left:3%
+	padding-left:3%;
+	background-color: #1B2F47; 
+	background: linear-gradient(to left, #476A94, #1B2F47);
 }
 #profilephoto{
 	width: 34%;
 	height: 30vh;
-	border: solid #476A94 10px;
+	border: solid #8DA9AB 10px;
 	border-radius: 8px;
 	display: inline-block;
 	padding: 0;
@@ -80,14 +76,25 @@ h4{
 	margin-right: 1%;
 	margin-bottom: 5vh;
 	background-color: #476A94;
+	background: linear-gradient(to right, #476A94, #1B2F47);
 
 }
 .title{
 	padding-left: 2%;
 	background-color: #8DA9AB;
+	background: radial-gradient(#8DA9AB, #476A94, #8DA9AB);
 }
 .projectimg{
 	max-width: 100%;
+}
+.thumbnails img{
+	max-width: 17%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.thumbnalis button{
+	display: block;
+	margin: auto;
 }
 #footer{	
 	margin: auto;
@@ -101,6 +108,6 @@ h4{
 	margin: 1vh 1%;
 }
 #footer a{
-margin-bottom: 1vh;
+	margin-bottom: 1vh;
 	text-align: center;
 }
