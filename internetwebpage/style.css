@@ -1,0 +1,216 @@
+/*Stephen Silverstein
+https://github.com/sjsilverstein*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;	
+	outline: 0;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+/*	This is my current favorite CSS reset. It handles all the essentials, and ensures relatively universal default browser-style uniformity.*/
+
+.cwhite {
+	color: #FFFFFF;
+}
+.blueback{
+	background-color: #407CAF;
+}
+.orangeback{
+	background-color: #EF7C00;
+}
+.shadeblue{
+	background: linear-gradient(#79D0DF, #00C1DF);
+}
+.btest{
+	border: 2px dotted red;
+}
+
+
+#wrapper {
+	width: 970px;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+
+.header{
+	width: 100%;
+}
+.header h1{
+	font-size: 300%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	top: 14px;
+	margin: 1px 20px;
+}
+.header h2{
+	font-size: 225%;
+	background: linear-gradient(#25669F, #5182AC, #2A6AA1);
+	padding: 0 0 0 2%;
+	position: relative;
+	top: -16px;
+}
+.header img{
+	max-width: 8%;
+	z-index: 1;
+	position: relative;
+	top: 0px;
+}
+.main{
+	width: 100%;
+	background: linear-gradient(#E4E4E4, white, white, white);
+	position: relative;
+	top: -16px;
+}
+.sidebar{
+	margin: 25px 0 0 0;
+	width: 24%;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0 0 25px 0;
+}
+.sidebar h1{
+	font-size: 140%;
+}
+.sidebar p{
+	font-size: 110%;
+	margin: 15px 0 18px 0;
+
+}
+.sidebar button{
+	margin: 5px auto 0 auto;
+	padding: 2px 0;
+	display: block;
+	box-shadow: 2px 2px gray;
+	border-radius: 4px;
+	width: 90%;
+	font-size: 125%;
+}
+.question{
+	padding: 0 0 25px 0;
+	border-bottom: 1px solid gray;
+}
+.add{
+	margin: 25px 0 0 0;
+	padding: 15px 5%;
+	background-image: url("images/ad_background.png");
+}
+.add h1{
+	font-size: 160%;
+	text-align: center;
+}
+.add img{
+	display: block;
+	margin: 15px auto 25px auto;
+	width: 45%;
+}
+.add button {
+	box-shadow: 1px 1px gray;
+	margin: 0 auto 20px auto;
+}
+.content{
+	vertical-align: top;
+	width: 70%;
+	margin: 0 0 0 5%;
+	display: inline-block;
+}
+.nav{
+	width: 100;
+	border-bottom: 2px solid gray;
+}
+.home{
+	margin: 10px 0 0 0;
+	vertical-align: top;
+	width: 28%;
+	display: inline-block;
+}
+.home img{
+	max-width: 10%;
+	display: inline-block;
+}
+.home h1{
+	display: inline-block;
+	color: #5E8CB4;
+	font-weight: bold;
+}
+.phone{
+	margin: 0 0 0 39%;
+	width: 7%;
+	display: inline-block;
+}
+.phone img{
+	max-width: 100%
+}
+.contact{
+	width: 24%;
+	display: inline-block;
+	text-align: right;
+}
+.contact p{
+	font-size: 75%;
+	color: #949494;
+}
+.contact h1{
+	font-size: 180%;
+	font-weight:bold;
+	color:#50CEE2;
+}
+.content-box h1{
+	color:#487FAD;
+	font-weight: bold;
+	font-size: 125%;
+	margin: 5px 0 8px 0;
+}
+.content-box p{
+	margin: 0 0 5px 0;
+}
+.content-box ul{
+	margin: 0 2% 0 7%;
+}
+.content-box ol{
+	margin: 0 2% 0 7%;
+}
+.content-box ul li{
+	margin: 0 0 5px 0;
+	font-size: 92%;
+}
+.content-box img{
+	display: block;
+	width: 35%;
+	margin: 0 auto;
+}
+.bluebox{
+	margin: 15px auto 0 auto;
+	width: 100%;
+	border-width: 5px 5px 0 5px;
+	border-style: solid;
+	border-color:  #1D93E3;
+	height: 150px;
+}
+.bluebox img{
+	display: inline-block;
+	width: 20%;
+	margin: 15px 0 0 10px;
+}
+.bluebox h1{
+	color:#487FAD;
+	font-weight: bold;
+	font-size: 125%;
+	margin: 5px 0 8px 0;
+	position: relative;
+	top: -135px;
+	left: 23%;
+}
+.bluebox p{
+	width: 75%;
+	margin: 0 0 5px 0;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	top: -135px;
+	left: 23%;
+}
